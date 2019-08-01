@@ -15,7 +15,7 @@
         image: gvenkat/webapp:latest
         name: webapp
         # path: docker
-        state: running
+        state: started
 
     - name: Check if container is running
       shell: docker ps
