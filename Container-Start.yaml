@@ -13,6 +13,7 @@
     - name: Running the container
       docker_container:
         image: gvenkat/webapp:latest
+        name: webapp
         # path: docker
         state: running
 
