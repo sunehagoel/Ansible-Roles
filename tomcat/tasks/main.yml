@@ -34,7 +34,7 @@
   copy: src=tomcat-initscript.sh dest=/etc/init.d/tomcat mode=0755
   
 - name: Deploying the Application
-  copy: src=java-maven-1.0-SNAPSHOT.war	dest=/usr/share/tomcat/webapps mode=0755
+  copy: src=java-maven-1.0-SNAPSHOT.war	dest=/usr/share/tomcat/webapps/ mode=0755
 
 - name: Start Tomcat
   service: name=tomcat state=started enabled=yes
