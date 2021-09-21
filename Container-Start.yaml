@@ -15,7 +15,7 @@
 
   - name: Running the container
     docker_container:
-      image: gvenkat/ulearnwebapp:latest
+      image: sunehagoel/rnswebapp:latest
       name: webapp
       # path: docker
       state: started
